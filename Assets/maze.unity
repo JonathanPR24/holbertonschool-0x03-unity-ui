@@ -3300,7 +3300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &879271169
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4322,12 +4322,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbe8a62b9f8e0804383f6451eeb47a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 20
   health: 5
   teleporterPlane1: {fileID: 0}
   teleporterPlane2: {fileID: 0}
   scoreText: {fileID: 392709837}
   healthText: {fileID: 374080296}
+  winLoseText: {fileID: 247260026}
+  winLoseBG: {fileID: 879271170}
 --- !u!54 &1199854904
 Rigidbody:
   m_ObjectHideFlags: 0
